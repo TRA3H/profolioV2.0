@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base{
+    *{
+        color: white;
+        background-color: #08142E;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
 @layer components{
-    
+
 }
