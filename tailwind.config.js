@@ -6,10 +6,17 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    container:{
-      center: true
-    }
     
+    extend:{
+      colors:{ //so if you want to add custom colors you got to put it in the theme -> extend -> colors object smh
+        'custom-blue' : '#4B7FBD',
+        'custom-purple' : '#725AA8',
+      },
+      padding:{
+        '1/2' : '50%',
+        full: '100%',
+      },
+    },
   },
   plugins: [],
 };
