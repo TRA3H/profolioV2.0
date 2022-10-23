@@ -1,5 +1,8 @@
 const Navbar = () => {
     return(
+
+        //TODO: fix mobile display
+
         <div className="sticky top-0 z-50 mx-auto max-w-4xl space-y-8 py-10 px-5 lg:px-0 ">
         <nav className="relative w-full space-x-4 rounded-xl border 
                         border-white/10 bg-white/5 px-4 backdrop-blur-lg

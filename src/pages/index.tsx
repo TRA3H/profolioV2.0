@@ -19,9 +19,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <div className="absolute blur-2xl bg-[#3A1D5E]
-                        rounded-full w-56 h-56"></div>
-        <div className="mx-auto max-w-4xl space-y-8 py-10 px-5 lg:px-0"> {/* Put all comps in this div thanks */}
+        <div className="mx-auto max-w-4xl space-y-8 py-10 px-5 lg:px-0" > {/* Put all comps in this div thanks */}
+        <div className="absolute blur-[163px] bg-[#3A1D5E] sm:w-[400px] sm:h-[400px]
+                        rounded-full lg:w-[518px] lg:h-[518px] left-[-271px] top-[158px]"></div>
+        <div className="absolute blur-[160px] bg-[#8DEAFF] sm:w-[172px] sm:h-[172px]
+                        rounded-full lg:w-[150px] lg:h-[518px] right-[0px] top-[609px] rounded-tl-full rounded-bl-full "></div>
         <Navbar></Navbar> 
         <Introduction></Introduction>
         <About></About>
