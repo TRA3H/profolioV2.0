@@ -22,8 +22,9 @@ const Item = ({ name, _icon }: { name: string; _icon: IconType }) => {
     return (
       <div className="flex items-center space-x-2 rounded-md border 
       border-white/20 bg-white/5 p-3">
-        <_icon className="h-6 w-6 text-white/80" />
         <p className="text-white/80">{name}</p>
+        <_icon className="h-6 w-6 text-white/80" />
+        
       </div>
     );
   };
@@ -31,8 +32,9 @@ const Item = ({ name, _icon }: { name: string; _icon: IconType }) => {
 const Skills = () => {
     return(
         <div className="space-y-4">
-            <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12 pl-5">Skills</h1>
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 pl-5 pr-5">
+        <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12 pl-5">Skills</h1>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 pl-5 pr-5 rounded-md border ml-5 mr-5
+      border-white/20 bg-white/5 pt-12 pb-12">
         <Item name="HTML" _icon={SiHtml5} />
         <Item name="CSS" _icon={SiCss3} />
         <Item name="Javascript" _icon={SiJavascript} />
