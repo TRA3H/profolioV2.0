@@ -28,7 +28,31 @@ const Home: NextPage = () => {
         <Introduction></Introduction>
         <About></About>
         <Skills></Skills>
-        <Projects></Projects>
+        <div className="space-y-12 sm:px-5">
+            <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12">Projects</h1>
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+          <Projects
+            title="cyrusbaybay.com"
+            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
+            gh_url="https://github.com/TRA3H/profolioV2.0"
+          ></Projects>
+          <Projects
+            title="cyrusbaybay.com"
+            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
+            gh_url="https://github.com/TRA3H/profolioV2.0"
+          ></Projects>
+          <Projects
+            title="cyrusbaybay.com"
+            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
+            gh_url="https://github.com/TRA3H/profolioV2.0"
+          ></Projects>
+          <Projects
+            title="cyrusbaybay.com"
+            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
+            gh_url="https://github.com/TRA3H/profolioV2.0"
+          ></Projects>
+          </div>
+        </div>
         
         </div>
         
