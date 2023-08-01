@@ -5,6 +5,7 @@ import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import SkillsSlider from "../components/SkillsSlider";
 
 
 const Home: NextPage = () => {
@@ -26,8 +27,7 @@ const Home: NextPage = () => {
                         rounded-full lg:w-[150px] lg:h-[518px] right-[0px] top-[609px] rounded-tl-full rounded-bl-full "></div>
         <Navbar></Navbar> 
         <Introduction></Introduction>
-        <About></About>
-        <Skills></Skills>
+        <SkillsSlider></SkillsSlider>
         <div className="space-y-12 sm:px-5">
             <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12">Projects</h1>
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -52,6 +52,11 @@ const Home: NextPage = () => {
             gh_url="https://github.com/TRA3H/profolioV2.0"
           ></Projects>
           </div>
+          <div>
+
+          </div>
+
+          
         </div>
         
         </div>

@@ -1,32 +1,118 @@
-import Link from "next/link"
+import React from "react";
+import { useIsomorphicLayoutEffect } from "react-use";
+import { useState } from "react";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
+import { Disclosure, Transition } from "@headlessui/react";
 
-import SongActivity from "./SongActivity"
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import Song from "./SongActivity";
 
 const Navbar = () => {
-    return(
+  const [ready, setReady] = useState(false);
+  useIsomorphicLayoutEffect(() => {
+    setReady(true);
+  }, []);
 
-        //TODO: fix mobile display
+  const router = useRouter();
 
-        <div className="sticky top-0 z-50 mx-auto max-w-4xl space-y-8 py-2 px-5 lg:px-0 ">
-        <nav className="relative w-full space-x-4 rounded-xl border 
-                        border-white/10 bg-white/5 px-4 backdrop-blur-lg
-                        py-6 ">
+  return (
+    <motion.div
+      initial={{ y: -10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="sticky top-4 z-50"
+    >
+      <Disclosure
+        as="nav"
+        className="w-full space-x-4 rounded-xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-lg"
+      >
+        {/* Open indicates whether the disclosure is open or not */}
+        {({ open }) => (
+          <>
             <div className="flex items-center justify-between space-x-8">
-                <div>
+              <div>
+                {/* Mobile Open/Close Btn */}
+                <Disclosure.Button
+                  className="rounded-xl p-2 text-white hover:text-gray-300 sm:hidden"
+                  onClick={() =>
+                    void new Audio("/pop.mp3").play().catch(() => null)
+                  }
+                >
+                  {!open ? (
+                    <Bars3Icon className="h-6 w-6" />
+                  ) : (
+                    <XMarkIcon className="h-6 w-6" />
+                  )}
+                </Disclosure.Button>
+                {/* END Mobile Open/Close Btn */}
 
-                    <Link href="/" className="text-lg items-center px-4" >Home</Link>
-                    <Link href="contact" className="text-lg items-center px-4">Contact</Link>
+                {/* Desktop Links */}
+                <div className="hidden space-x-4 sm:flex">
+                  <Link href="/" className={`text-lg items-center px-4 rounded-md p-2 font-semibold ${
+                        router.pathname === "/" ? "text-white" : "text-gray-300"
+                      } hover:bg-gray-700/30`}>
+                    
+                      Home
+                  </Link>
+                  <Link href="contact" className={`text-lg items-center px-4 rounded-md p-2 font-semibold ${
+                        router.pathname === "/contact"
+                          ? "text-white"
+                          : "text-gray-300"
+                      } hover:bg-gray-700/30`}>
+                   
+                      Contact
+                  </Link>
                 </div>
-                <div className="flex justify-items-center space-x-2 text-gray-500 pr-2 overflow-hidden">
-                   <SongActivity></SongActivity>
-                </div>
+                {/* END Desktop Links */}
+              </div>
+
+              {/* SPOTIFY??? */}
+              <Song />
+              {/* END SPOTIFY??? */}
             </div>
-            
-            
-        </nav>
-        </div>
-    );
 
-}
+            {/* Mobile Links */}
+            <Transition
+              show={open}
+              enter="transition duration-500 ease-out"
+              enterFrom="transform scale-95 opacity-0"
+              enterTo="transform scale-100 opacity-100"
+              leave="transition duration-250 ease-out"
+              leaveFrom="transform scale-100 opacity-100"
+              leaveTo="transform scale-95 opacity-0"
+            >
+              <Disclosure.Panel
+                className="my-2 border-t border-gray-700 sm:hidden"
+                static
+              >
+                <div className="mt-2 flex flex-col space-y-1">
+                  <Link href="/" className={`text-lg items-center px-4 rounded-md p-2 font-semibold ${
+                        router.pathname === "/" ? "text-white" : "text-gray-300"
+                      } hover:bg-gray-900/50`}>
+                    
+                      Home
+        
+                  </Link>
+                  <Link href="contact" className={`text-lg items-center px-4 rounded-md p-2 font-semibold ${
+                        router.pathname === "/contact"
+                          ? "text-white"
+                          : "text-gray-300"
+                      } hover:bg-gray-900/50`}>
 
-export default Navbar
+                      Contact
+                    
+                  </Link>
+                </div>
+              </Disclosure.Panel>
+            </Transition>
+            {/* Mobile Links */}
+          </>
+        )}
+      </Disclosure>
+    </motion.div>
+  );
+};
+
+export default Navbar;

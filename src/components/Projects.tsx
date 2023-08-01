@@ -43,7 +43,7 @@ const Project = ({ title, description, gh_url}: Props) => {
         <div className="flex flex-1">
           <p>{title}</p>
         </div>
-        <motion.div animate={{ rotate: open ? 0 : -90 }}>
+        <motion.div animate={{ rotate: open ? -90 : 0 }}>
           <ArrowLeftIcon className="h-5 w-5" />
         </motion.div>
       </button>
