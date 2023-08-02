@@ -32,18 +32,18 @@ const Home: NextPage = () => {
             <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12">Projects</h1>
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
           <Projects
-            title="cyrusbaybay.com"
-            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
+            title="Profolio V2.0🌟"
+            description="Welcome to ProfolioV2.0, a modern and dynamic portfolio showcasing my web development journey from HTML and CSS to cutting-edge technologies like Next.js and Tailwind CSS. Explore my achievements, interact with my AI virtual assistant, CyrusGPT, and discover my music preferences with Spotify integration, all presented with captivating animations to create an engaging and personalized experience."
             gh_url="https://github.com/TRA3H/profolioV2.0"
           ></Projects>
           <Projects
-            title="cyrusbaybay.com"
-            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
-            gh_url="https://github.com/TRA3H/profolioV2.0"
+            title="CryptoHood 🚀"
+            description="CryptoHood is a cutting-edge mobile app that provides real-time crypto market data, including prices, volatility, and volume, for a wide range of cryptocurrencies. Stay informed, track your favorite assets, and make informed decisions with ease, all while ensuring the utmost privacy and security through user authentication."
+            gh_url="https://github.com/TRA3H/CryptoHood"
           ></Projects>
           <Projects
-            title="cyrusbaybay.com"
-            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
+            title="PriceHero 🔍"
+            description="PriceHero is your ultimate price comparison tool, allowing you to find the best deals for any item you desire. With real-time price data fetched using the Google Shop Scraper API from Apify, PriceHero presents a comprehensive list of items, ranked from least to greatest price, helping you save big on your purchases."
             gh_url="https://github.com/TRA3H/profolioV2.0"
           ></Projects>
           <Projects
