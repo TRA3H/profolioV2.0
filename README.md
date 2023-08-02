@@ -20,7 +20,7 @@ Drawing inspiration from talented creators, ProfolioV2.0 showcases a range of ca
 
 ## How to Use
 
-1. Visit ProfolioV2.0 at [your_portfolio_website_url].
+1. Visit ProfolioV2.0 at [here](https://google.com).
 2. Navigate through the various sections to learn about my journey, skills, and accomplishments.
 3. Interact with CyrusGPT by initiating a conversation through the chat-like interface.
 4. Observe the Spotify functionality, showing my real-time music activity when listening to Spotify.
@@ -36,10 +36,9 @@ I am a passionate web developer, constantly seeking innovative ways to bring my 
 
 Connect with me on social media:
 
-- Twitter: [twitter.com/YourTwitterHandle](link_to_your_twitter)
-- LinkedIn: [linkedin.com/in/YourLinkedInProfile](link_to_your_linkedin)
-- GitHub: [github.com/YourGitHubProfile](link_to_your_github)
+- Twitter: [CyrusBaebae](https://twitter.com/CyrusBaebae)
+- LinkedIn: [Cyrus Baybay](https://www.linkedin.com/in/cyrus-baybay-69a809175/)
+- GitHub: [TRA3H](https://github.com/TRA3H)
 
 Thank you for visiting ProfolioV2.0! Experience the future of web development and get to know the professional side of Cyrus!
 
-*Note: The above text is a sample README file for the "ProfolioV2.0" portfolio website. Replace the placeholders (e.g., link_to_your_logo, your_portfolio_website_url, etc.) with actual links and relevant information about your website. Also, make sure to include any legal disclaimers or privacy policies as needed.*
