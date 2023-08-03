@@ -23,7 +23,7 @@ const Experience = () => {
                 />
               </svg>
             </span>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold  dark:text-white">
               Best Buy - Sales Retail Advisor{" "}
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
                 July 2023 - Present
@@ -82,7 +82,7 @@ const Experience = () => {
                 />
               </svg>
             </span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="mb-1 text-lg font-semibold dark:text-white">
               Code Ninjas La Habra - Internship{" "}
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
                 September 2021 - February 2022
@@ -111,7 +111,7 @@ const Experience = () => {
                 />
               </svg>
             </span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="mb-1 text-lg font-semibold dark:text-white">
               Video Game Design Club CSUF - Project Manager{" "}
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
                 August 2021 - December 2021
