@@ -8,9 +8,10 @@ interface Props {
   title: string;
   description: string;
   gh_url: string;
+  proj_url?: string;
 }
 
-const Project = ({ title, description, gh_url}: Props) => {
+const Project = ({ title, description, gh_url, proj_url}: Props) => {
   const [open, toggle] = useReducer((prev) => !prev, false);
   const [coords, setCoords] = useReducer(
     (prev: any, next: any) => ({ ...prev, ...next }),
@@ -69,6 +70,18 @@ const Project = ({ title, description, gh_url}: Props) => {
                   >
                     <SiGithub className="h-5 w-5" />
                     <p>View Source</p>
+                  </a>
+                  
+                )}
+                {proj_url && (
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={proj_url}
+                    className="flex items-center space-x-2 rounded-full bg-gray-700 p-2 pr-2 transition-transform hover:scale-95 sm:pr-4"
+                  >
+                    <GlobeAltIcon className="h-5 w-5" />
+                    <p>View Project</p>
                   </a>
                 )}
               </div>

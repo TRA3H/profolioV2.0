@@ -45,6 +45,7 @@ const Home: NextPage = () => {
             title="PriceHero 🔍"
             description="PriceHero is your ultimate price comparison tool, allowing you to find the best deals for any item you desire. With real-time price data fetched using the Google Shop Scraper API from Apify, PriceHero presents a comprehensive list of items, ranked from least to greatest price, helping you save big on your purchases."
             gh_url="https://github.com/TRA3H/profolioV2.0"
+            proj_url="https://price-hero.vercel.app"
           ></Projects>
           <Projects
             title="cyrusbaybay.com"
