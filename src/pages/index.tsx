@@ -6,6 +6,8 @@ import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import SkillsSlider from "../components/SkillsSlider";
+import Experience from "../components/Experience";
+import ExperienceHeading from "../components/ExperienceHeader";
 
 
 const Home: NextPage = () => {
@@ -59,7 +61,11 @@ const Home: NextPage = () => {
 
           
         </div>
+        <div className="space-y-12 sm:px-5">
+            <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12">Experience</h1>
         
+        <Experience></Experience>
+        </div>
         </div>
         
       </main>
