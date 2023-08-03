@@ -20,7 +20,7 @@ Drawing inspiration from talented creators, ProfolioV2.0 showcases a range of ca
 
 ## How to Use
 
-1. Visit ProfolioV2.0 at [here](profolio-v2-0.vercel.app).
+1. Visit ProfolioV2.0 at [here](https://profolio-v2-0.vercel.app/).
 2. Navigate through the various sections to learn about my journey, skills, and accomplishments.
 3. Interact with CyrusGPT by initiating a conversation through the chat-like interface.
 4. Observe the Spotify functionality, showing my real-time music activity when listening to Spotify.
