@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import GPTCyrus from "../components/gptcyrus";
+import Experience from "../components/Experience";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 
 const Contact: NextPage =() => {
@@ -22,7 +24,30 @@ const Contact: NextPage =() => {
                         rounded-full lg:w-[150px] lg:h-[518px] right-[0px] top-[609px] rounded-tl-full rounded-bl-full "></div>
         <Navbar></Navbar> 
         <GPTCyrus></GPTCyrus>
+        <div className="space-y-12 sm:px-5">
+            <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12">Experience</h1>
+            <div className="flex space-x-5">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-white hover:text-sky-400"
+            href="https://github.com/TRA3H"
+          >
+            <SiGithub className="h-7 w-7" />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-white hover:text-sky-400"
+            href="https://www.linkedin.com/in/cyrus-baybay-69a809175/"
+          >
+            <SiLinkedin className="h-7 w-7" />
+          </a>
         </div>
+        <Experience></Experience>
+        </div>
+        </div>
+        
         </main>
         </div>
     );

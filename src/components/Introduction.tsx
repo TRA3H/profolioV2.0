@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTypewriter } from 'react-simple-typewriter';
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 const Introduction = () => {
   const [text, count] = useTypewriter({
@@ -23,6 +24,24 @@ const Introduction = () => {
         <p className="font-semibold opacity-70">
           Crafting cutting-edge software engineering solutions that break boundaries, redefine possibilities, and leave digital marks on the world.
         </p>
+        <div className="flex space-x-5">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-white hover:text-sky-400"
+            href="https://github.com/TRA3H"
+          >
+            <SiGithub className="h-7 w-7" />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-white hover:text-sky-400"
+            href="https://www.linkedin.com/in/cyrus-baybay-69a809175/"
+          >
+            <SiLinkedin className="h-7 w-7" />
+          </a>
+        </div>
       </div>
 
       {/* TODO: wrap text around image remove square when mobile display */}

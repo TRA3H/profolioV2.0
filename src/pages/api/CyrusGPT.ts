@@ -74,8 +74,11 @@ Retail Sales Advisor July 2023 - Current
         body: JSON.stringify(data)
     };
 
+    
     const response = await fetch(OPEN_AI_URL!, options);
+    console.log(response)
     const responseJson = await response.json();
+    
 
-    res.status(200).json({ response: responseJson.choices[0].message.content.toString() })
+    res.status(200).json({ response: responseJson.choices[0].message.content.toString()})
 }

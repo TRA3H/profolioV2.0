@@ -8,6 +8,7 @@ import Skills from "../components/Skills";
 import SkillsSlider from "../components/SkillsSlider";
 import Experience from "../components/Experience";
 import ExperienceHeading from "../components/ExperienceHeader";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 
 const Home: NextPage = () => {
@@ -50,9 +51,9 @@ const Home: NextPage = () => {
             proj_url="https://price-hero.vercel.app"
           ></Projects>
           <Projects
-            title="cyrusbaybay.com"
-            description="From 1.0 to 2.0: My personal profolio that is built with Next.js and Tailwind CSS. To keep moving forward."
-            gh_url="https://github.com/TRA3H/profolioV2.0"
+            title="HellTowers 🛡️"
+            description="Hell Towers is a tower defense game I helped create with a group using Unity, where players must strategically build defenses to protect an S.O.S. beacon from swarming aliens. It was a challenging yet rewarding experience that allowed me to delve into game development."
+            gh_url="https://github.com/Digx7/HellTowers"
           ></Projects>
           </div>
           <div>
