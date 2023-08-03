@@ -54,7 +54,7 @@ const Experience = () => {
                 />
               </svg>
             </span>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold dark:text-white">
               Association of Computer Machinery CSUF - Product Designer{" "}
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
                 May 2022 - December 2022
