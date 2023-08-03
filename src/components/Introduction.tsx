@@ -16,7 +16,7 @@ const Introduction = () => {
   return (
     <div className="container md:flex mx-auto justify-between space-x-12 space-y-12 px-2 text-white sm:px-5 items-center">
       <div className="space-y-6">
-        <h1 className="sm:text-4xl text-3xl font-bold md:text-5xl">Hey, I'm Cyrus Baybay</h1>
+        <h1 className="sm:text-4xl text-3xl font-bold md:text-5xl">Hey, I'm <span className="text-yellow-300">Cyrus Baybay</span></h1>
         <p className="font-semibold opacity-70" style={{ height: '3.5rem' }}>
           {text}
         </p>
