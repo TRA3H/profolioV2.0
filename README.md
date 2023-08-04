@@ -1,4 +1,4 @@
-# ProfolioV2.0 - Your Modern Portfolio Website
+# ProfolioV2.0 - My Modern Portfolio Website
 
 ProfolioV2.0 is a cutting-edge portfolio website showcasing my journey from HTML and CSS to utilizing the latest technologies like Next.js and Tailwind CSS. It features unique functionalities, including my very own GPT called CyrusGPT, which interacts with the OpenAI API, providing visitors with an immersive and professional experience. Additionally, the website integrates Spotify functionality, displaying my music activity from Discord using the use-lanyard npm package, while incorporating captivating animations inspired by other talented creators.
 
