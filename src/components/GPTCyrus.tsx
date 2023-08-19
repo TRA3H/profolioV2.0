@@ -17,7 +17,7 @@ const GPTCyrus = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('/api/CyrusGPT', { chatMessage: input });
+      const response = await axios.post('/api/cyrusgpt', { chatMessage: input });
       setMessages((prevMessages) => [...prevMessages, { type: 'response', content: response.data.response }]);
     } catch (error) {
       console.error(error);

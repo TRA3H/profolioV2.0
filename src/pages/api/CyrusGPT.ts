@@ -10,7 +10,7 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
     const { OPEN_AI_API_KEY, OPEN_AI_MODEL, OPEN_AI_URL } = process.env;
-
+    console.log(OPEN_AI_API_KEY, OPEN_AI_MODEL, OPEN_AI_URL);
     const { chatMessage } = req.body;
 
     const data = { "model": OPEN_AI_MODEL, max_tokens: 300, "messages": [{"role": "user", "content": `My name is Cyrus Baybay and my resume is attached below this. Answer all questions as if you were me in a meaningful but short response. If asked about things that AI cannot give info on, act as if you are me. Always be polite and professional and answer all questions because you are me.
