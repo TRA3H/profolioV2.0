@@ -24,17 +24,17 @@ const Experience = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold  dark:text-white">
-              Best Buy - Sales Retail Advisor{" "}
+              Titan Radio - Webmaster Intern{" "}
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
-                July 2023 - Present
+                August 2023 - Present
               </span>
             </h3>
             <ul className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-              <li>• Utilized strong interpersonal skills to understand customer needs and recommend appropriate products, leading to increased customer satisfaction and sales</li>
-              <li>• Demonstrated exceptional communication skills in educating customers about product features and technical specifications</li>
-              <li>• Developed problem-solving abilities to address customer inquiries and resolve issues promptly</li>
-              <li>• Collaborated with team members to achieve sales targets and contribute to a positive team culture</li>
-              <li>• Gained valuable experience in customer relationship management and problem-solving, skills that are transferable to software engineering</li>
+              <li>• Spearheaded the design, development, and maintenance of Titan Radio's official website, ensuring responsive and user-friendly interface</li>
+              <li>• Collaborated with a team of content creators to integrate multimedia elements, enhancing user engagement and overall site aesthetics</li>
+              <li>• Provided real-time website support, addressing and resolving technical glitches to ensure smooth end-user experience</li>
+              <li>• Demonstrated versatility by wearing multiple hats: web designer, technical assistant, and content creator, showcasing adaptability and commitment to the station's success</li>
+              <li>• Enhanced the online presence of Titan Radio, contributing to increased listener traffic and engagement</li>
             </ul>
           </li>
 
