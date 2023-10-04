@@ -2,6 +2,10 @@
 
 ProfolioV2.0 is a cutting-edge portfolio website showcasing my journey from HTML and CSS to utilizing the latest technologies like Next.js and Tailwind CSS. It features unique functionalities, including my very own GPT called CyrusGPT, which interacts with the OpenAI API, providing visitors with an immersive and professional experience. Additionally, the website integrates Spotify functionality, displaying my music activity from Discord using the use-lanyard npm package, while incorporating captivating animations inspired by other talented creators.
 
+## My Figma Design
+
+https://www.figma.com/file/cSEF3pPzjTbQC0hU3PeduB/Profolio-V2?type=design&node-id=0%3A1&mode=design&t=qiH1cMsCqQyDBbPA-1
+
 ## Technologies and Journey
 
 ProfolioV2.0 represents a major step in my web development journey, evolving from static HTML and CSS to dynamic frameworks like Next.js, which enhances performance and enables seamless server-side rendering. Leveraging Tailwind CSS, I embraced a utility-first approach, making it easier to build responsive and visually appealing designs.
