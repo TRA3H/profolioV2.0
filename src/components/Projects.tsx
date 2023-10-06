@@ -7,7 +7,7 @@ import { SiGithub } from "react-icons/si";
 interface Props {
   title: string;
   description: string;
-  gh_url: string;
+  gh_url?: string;
   proj_url?: string;
 }
 

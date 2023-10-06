@@ -34,6 +34,16 @@ const Home: NextPage = () => {
         <div className="space-y-12 sm:px-5">
             <h1 className="sm:text-4xl, text-3xl font-bold md:text-5xl pt-12">Projects</h1>
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+            <Projects
+            title="Ekko🤖"
+            description="Simplify tasks, automate processes, and boost productivity with Ekko, a versatile C# application. Save time by customizing key input configurations, streamlining repetitive tasks, and enhancing your digital workflow. If you want to know more message me about it!"
+            gh_url=""
+          ></Projects>
+          <Projects
+            title="TitanRadio📻"
+            description="Powered by WordPress, our dynamic website features a live radio player, live chat, and TR Replay for quick content access. As the website manager and feature developer, I keep the site up-to-date and introduce new functionalities. Explore our vibrant DJ community, stay updated on exciting events, and immerse yourself in the world of music and entertainment."
+            proj_url="https://titanradio.org/"
+          ></Projects>
           <Projects
             title="Profolio V2.0🌟"
             description="Welcome to ProfolioV2.0, a modern and dynamic portfolio showcasing my web development journey from HTML and CSS to cutting-edge technologies like Next.js and Tailwind CSS. Explore my achievements, interact with my AI virtual assistant, CyrusGPT, and discover my music preferences with Spotify integration, all presented with captivating animations to create an engaging and personalized experience."
