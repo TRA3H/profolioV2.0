@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 const Introduction = () => {
   const [text, count] = useTypewriter({
     words: [
-      "- 5th year college student at California State University, Fullerton",
+      "- Graduated from California State University, Fullerton!",
       "- Software Engineer",
       "- Full Stack Developer"
     ],

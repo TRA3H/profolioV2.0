@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
             <Projects
             title="Ekko🤖"
-            description="Simplify tasks, automate processes, and boost productivity with Ekko, a versatile C# application. Save time by customizing key input configurations, streamlining repetitive tasks, and enhancing your digital workflow. If you want to know more message me about it!"
+            description="Developed a keylogger in Visual Studio using C++/C#, designed for cybersecurity testing to simulate and analyze system vulnerabilities. Utilized JSON for advanced configuration and data handling, optimizing the tool for real-world penetration testing scenarios."
             gh_url=""
           ></Projects>
           <Projects
