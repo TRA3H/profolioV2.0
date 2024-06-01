@@ -32,7 +32,7 @@ Drawing inspiration from talented creators, ProfolioV2.0 showcases a range of ca
 
 ## Feedback and Support
 
-I value your feedback and suggestions as I continue to improve ProfolioV2.0. If you have any questions or encounter any issues, please feel free to reach out to me at [your_contact_email].
+I value your feedback and suggestions as I continue to improve ProfolioV2.0. If you have any questions or encounter any issues, please feel free to reach out to me at cyrusb10@gmail.com
 
 ## About Me
 
