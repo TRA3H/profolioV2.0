@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTypewriter } from 'react-simple-typewriter';
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail  } from "react-icons/si";
 
 const Introduction = () => {
   const [text, count] = useTypewriter({
@@ -40,6 +40,12 @@ const Introduction = () => {
             href="https://www.linkedin.com/in/cyrus-baybay-69a809175/"
           >
             <SiLinkedin className="h-7 w-7" />
+          </a>
+          <a
+            href="mailto:cyrusb10@gmail.com"
+            className="text-white hover:text-sky-400"
+          >
+            <SiGmail className="h-7 w-7" />
           </a>
         </div>
       </div>

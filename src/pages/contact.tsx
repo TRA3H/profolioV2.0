@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import GPTCyrus from "../components/gptcyrus";
+import GPTCyrus from "../components/GPTCyrus";
 import Experience from "../components/Experience";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 
 
 const Contact: NextPage =() => {
@@ -42,6 +42,12 @@ const Contact: NextPage =() => {
             href="https://www.linkedin.com/in/cyrus-baybay-69a809175/"
           >
             <SiLinkedin className="h-7 w-7" />
+          </a>
+          <a
+            href="mailto:cyrusb10@gmail.com"
+            className="text-white hover:text-sky-400"
+          >
+            <SiGmail className="h-7 w-7" />
           </a>
         </div>
         <Experience></Experience>

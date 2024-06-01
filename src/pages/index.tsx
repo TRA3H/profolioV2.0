@@ -8,7 +8,7 @@ import Skills from "../components/Skills";
 import SkillsSlider from "../components/SkillsSlider";
 import Experience from "../components/Experience";
 import ExperienceHeading from "../components/ExperienceHeader";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 
 
 const Home: NextPage = () => {
